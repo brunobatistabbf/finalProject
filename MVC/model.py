@@ -21,7 +21,7 @@ class Estoque:
         for produto in self.produtos:
             if produto.nome == nome_produto:
                 self.produtos.remove(produto)
-                return  True
+                return True
             else:
                 return False
 

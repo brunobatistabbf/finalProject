@@ -1,7 +1,7 @@
 class View:
     @staticmethod
     def menu():
-        print('\n============= GESTÃO: MERCADÃO DO ZE ==============\n')
+        print('\n============= GESTÃO: MERCADÃO ==============\n')
         print('1. Adicionar Produto')
         print('2. Remover Produto')
         print('3. Atualizar Produto')
@@ -13,7 +13,7 @@ class View:
         nome = input("Digite o nome do produto:")
         quantidade = int(input("Digite a quantidade:"))
         preco = float(input("Digite o preço:"))
-        return  nome, quantidade, preco
+        return nome, quantidade, preco
 
     @staticmethod
     def capturar_nome_produto():

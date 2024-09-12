@@ -6,7 +6,7 @@
 
 ---
 ### Diagrama MVC
-<img src="diagramaMVC.png">
+<img src="diagramaMVC2.png">
 
 ---
 ### Diagrama DAO
